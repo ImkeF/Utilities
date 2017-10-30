@@ -1,0 +1,1028 @@
+{
+    "legend": {
+        "position": [
+            {
+                "value": "Top",
+                "displayName": "Top"
+            },
+            {
+                "value": "Bottom",
+                "displayName": "Bottom"
+            },
+            {
+                "value": "Left",
+                "displayName": "Left"
+            },
+            {
+                "value": "Right",
+                "displayName": "Right"
+            },
+            {
+                "value": "TopCenter",
+                "displayName": "Top Center"
+            },
+            {
+                "value": "BottomCenter",
+                "displayName": "Bottom Center"
+            },
+            {
+                "value": "LeftCenter",
+                "displayName": "Left Center"
+            },
+            {
+                "value": "RightCenter",
+                "displayName": "Right center"
+            }
+        ],
+        "legendMarkerRendering": [
+            {
+                "value": "markerOnly",
+                "displayName": "Markers only"
+            },
+            {
+                "value": "lineAndMarker",
+                "displayName": "Line and markers"
+            },
+            {
+                "value": "lineOnly",
+                "displayName": "Line only"
+            }
+        ]
+    },
+    "categoryAxis": {
+        "axisScale": [
+            {
+                "value": "linear",
+                "displayName": "Linear"
+            },
+            {
+                "value": "log",
+                "displayName": "Log"
+            }
+        ],
+        "axisType": [
+            {
+                "value": "Scalar",
+                "displayName": "Continuous"
+            },
+            {
+                "value": "Categorical",
+                "displayName": "Categorical"
+            }
+        ],
+        "axisStyle": [
+            {
+                "value": "showTitleOnly",
+                "displayName": "Show title only"
+            },
+            {
+                "value": "showUnitOnly",
+                "displayName": "Show unit only"
+            },
+            {
+                "value": "showBoth",
+                "displayName": "Show both"
+            }
+        ],
+        "gridlineStyle": [
+            {
+                "value": "dashed",
+                "displayName": "Dashed"
+            },
+            {
+                "value": "solid",
+                "displayName": "Solid"
+            },
+            {
+                "value": "dotted",
+                "displayName": "Dotted"
+            }
+        ],
+        "position": [
+            {
+                "value": "Left",
+                "displayName": "Left"
+            },
+            {
+                "value": "Right",
+                "displayName": "Right"
+            }
+        ]
+    },
+    "valueAxis": {
+        "position": [
+            {
+                "value": "Left",
+                "displayName": "Left"
+            },
+            {
+                "value": "Right",
+                "displayName": "Right"
+            }
+        ],
+        "axisScale": [
+            {
+                "value": "linear",
+                "displayName": "Linear"
+            },
+            {
+                "value": "log",
+                "displayName": "Log"
+            }
+        ],
+        "axisStyle": [
+            {
+                "value": "showTitleOnly",
+                "displayName": "Show title only"
+            },
+            {
+                "value": "showUnitOnly",
+                "displayName": "Show unit only"
+            },
+            {
+                "value": "showBoth",
+                "displayName": "Show both"
+            }
+        ],
+        "gridlineStyle": [
+            {
+                "value": "dashed",
+                "displayName": "Dashed"
+            },
+            {
+                "value": "solid",
+                "displayName": "Solid"
+            },
+            {
+                "value": "dotted",
+                "displayName": "Dotted"
+            }
+        ],
+        "secPosition": [
+            {
+                "value": "Left",
+                "displayName": "Left"
+            },
+            {
+                "value": "Right",
+                "displayName": "Right"
+            }
+        ],
+        "secAxisScale": [
+            {
+                "value": "linear",
+                "displayName": "Linear"
+            },
+            {
+                "value": "log",
+                "displayName": "Log"
+            }
+        ],
+        "secAxisStyle": [
+            {
+                "value": "showTitleOnly",
+                "displayName": "Show title only"
+            },
+            {
+                "value": "showUnitOnly",
+                "displayName": "Show unit only"
+            },
+            {
+                "value": "showBoth",
+                "displayName": "Show both"
+            }
+        ]
+    },
+    "lineStyles": {
+        "strokeLineJoin": [
+            {
+                "value": "miter",
+                "displayName": "Miter"
+            },
+            {
+                "value": "round",
+                "displayName": "Round"
+            },
+            {
+                "value": "bevel",
+                "displayName": "Bevel"
+            }
+        ],
+        "lineStyle": [
+            {
+                "value": "dashed",
+                "displayName": "Dashed"
+            },
+            {
+                "value": "solid",
+                "displayName": "Solid"
+            },
+            {
+                "value": "dotted",
+                "displayName": "Dotted"
+            }
+        ],
+        "markerShape": [
+            {
+                "value": "circle",
+                "displayName": "●"
+            },
+            {
+                "value": "square",
+                "displayName": "■"
+            },
+            {
+                "value": "diamond",
+                "displayName": "◆"
+            },
+            {
+                "value": "triangle",
+                "displayName": "▲"
+            },
+            {
+                "value": "x",
+                "displayName": "☓"
+            },
+            {
+                "value": "shortDash",
+                "displayName": " -"
+            },
+            {
+                "value": "longDash",
+                "displayName": "—"
+            },
+            {
+                "value": "plus",
+                "displayName": "+"
+            }
+        ]
+    },
+    "trend": {
+        "style": [
+            {
+                "value": "dashed",
+                "displayName": "Dashed"
+            },
+            {
+                "value": "solid",
+                "displayName": "Solid"
+            },
+            {
+                "value": "dotted",
+                "displayName": "Dotted"
+        }
+    ]
+},
+"y1AxisReferenceLine": {
+    "style": [
+        {
+            "value": "dashed",
+            "displayName": "Dashed"
+        },
+        {
+            "value": "solid",
+            "displayName": "Solid"
+        },
+        {
+            "value": "dotted",
+            "displayName": "Dotted"
+        }
+    ],
+    "position": [
+        {
+            "value": "back",
+            "displayName": "Behind"
+        },
+        {
+            "value": "front",
+            "displayName": "In Front"
+        }
+    ],
+    "dataLabelText": [
+        {
+            "value": "Value",
+            "displayName": "Value"
+        },
+        {
+            "value": "Name",
+            "displayName": "Name"
+        },
+        {
+            "value": "ValueAndName",
+            "displayName": "Name and Value"
+        }
+    ],
+    "dataLabelHorizontalPosition": [
+        {
+            "value": "left",
+            "displayName": "Left"
+        },
+        {
+            "value": "right",
+            "displayName": "Right"
+        }
+    ],
+    "dataLabelVerticalPosition": [
+        {
+            "value": "above",
+            "displayName": "Above"
+        },
+        {
+            "value": "under",
+            "displayName": "Under"
+        }
+    ]
+},
+"referenceLine": {
+    "style": [
+        {
+            "value": "dashed",
+            "displayName": "Dashed"
+        },
+        {
+            "value": "solid",
+            "displayName": "Solid"
+        },
+        {
+            "value": "dotted",
+            "displayName": "Dotted"
+        }
+    ],
+    "position": [
+        {
+            "value": "back",
+            "displayName": "Behind"
+        },
+        {
+            "value": "front",
+            "displayName": "In Front"
+        }
+    ],
+    "dataLabelText": [
+  {
+    "value": "Value",
+    "displayName": "Value"
+  },
+  {
+    "value": "Name",
+    "displayName": "Name"
+  },
+  {
+    "value": "ValueAndName",
+    "displayName": "Name and Value"
+  }
+],
+"dataLabelHorizontalPosition": [
+  {
+    "value": "left",
+    "displayName": "Left"
+  },
+  {
+    "value": "right",
+    "displayName": "Right"
+  }
+],
+"dataLabelVerticalPosition": [
+  {
+    "value": "above",
+    "displayName": "Above"
+  },
+  {
+    "value": "under",
+    "displayName": "Under"
+  }
+]
+},
+"labels": {
+"labelOrientation": [
+  {
+    "value": "vertical",
+    "displayName": "Vertical"
+  },
+  {
+    "value": "horizontal",
+    "displayName": "Horizontal"
+  }
+],
+"labelPosition": [
+  {
+    "value": "Auto",
+    "displayName": "Auto"
+  },
+  {
+    "value": "InsideEnd",
+    "displayName": "Inside End"
+  },
+  {
+    "value": "OutsideEnd",
+    "displayName": "Outside End"
+  },
+  {
+    "value": "InsideCenter",
+    "displayName": "Inside Center"
+  },
+  {
+    "value": "InsideBase",
+    "displayName": "Inside Base"
+  }
+],
+"labelStyle": [
+  {
+    "value": "Category",
+    "displayName": "Category"
+  },
+  {
+    "value": "Data",
+    "displayName": "Data value"
+  },
+  {
+    "value": "Percent of total",
+    "displayName": "Percent of total"
+  },
+  {
+    "value": "Both",
+    "displayName": "Category, data value"
+  },
+  {
+    "value": "Category, percent of total",
+    "displayName": "Category, percent of total"
+  },
+  {
+    "value": "Data value, percent of total",
+    "displayName": "Data value, percent of total"
+  },
+  {
+    "value": "Category, data value, percent of total",
+    "displayName": "All detail labels"
+  }
+ ]
+},
+"card": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+     ]
+},
+"imageScaling": {
+    "imageScalingType": [
+      {
+        "value": "Normal",
+        "displayName": "Normal"
+      },
+      {
+        "value": "Fit",
+        "displayName": "Fit"
+      },
+      {
+        "value": "Fill",
+        "displayName": "Fill"
+      }
+    ]
+},
+"forecast": {
+    "confidenceBandStyle": [
+      {
+        "value": "fill",
+        "displayName": "Fill"
+      },
+      {
+        "value": "line",
+        "displayName": "Line"
+      },
+      {
+        "value": "none",
+        "displayName": "None"
+      }
+    ],
+    "style": [
+      {
+        "value": "dashed",
+        "displayName": "Dashed"
+      },
+      {
+        "value": "solid",
+        "displayName": "Solid"
+      },
+      {
+        "value": "dotted",
+        "displayName": "Dotted"
+      }
+    ]
+    },
+    "mapStyles": {
+    "mapTheme": [
+      {
+        "value": "aerial",
+        "displayName": "Aerial"
+      },
+      {
+        "value": "canvasDark",
+        "displayName": "Dark"
+      },
+      {
+        "value": "canvasLight",
+        "displayName": "Light"
+      },
+      {
+        "value": "grayscale",
+        "displayName": "Grayscale"
+      },
+      {
+        "value": "road",
+        "displayName": "Road"
+      }
+    ]
+},
+"shape": {
+    "projectionEnum": [
+      {
+        "value": "albersUsa",
+        "displayName": "Albers USA"
+      },
+      {
+        "value": "equirectangular",
+        "displayName": "Equirectangular"
+      },
+      {
+        "value": "mercator",
+        "displayName": "Mercator"
+      },
+      {
+        "value": "orthographic",
+        "displayName": "Orthographic"
+      }
+    ]
+    },
+    "xAxisReferenceLine": {
+    "style": [
+      {
+        "value": "dashed",
+        "displayName": "Dashed"
+      },
+      {
+        "value": "solid",
+        "displayName": "Solid"
+      },
+      {
+        "value": "dotted",
+        "displayName": "Dotted"
+      }
+    ],
+    "position": [
+      {
+        "value": "back",
+        "displayName": "Behind"
+      },
+      {
+        "value": "front",
+        "displayName": "In Front"
+      }
+    ],
+    "dataLabelText": [
+      {
+        "value": "Value",
+        "displayName": "Value"
+      },
+      {
+        "value": "Name",
+        "displayName": "Name"
+      },
+      {
+        "value": "ValueAndName",
+        "displayName": "Name and Value"
+      }
+    ],
+    "dataLabelHorizontalPosition": [
+      {
+        "value": "left",
+        "displayName": "Left"
+      },
+      {
+        "value": "right",
+        "displayName": "Right"
+      }
+    ],
+    "dataLabelVerticalPosition": [
+      {
+        "value": "above",
+        "displayName": "Above"
+      },
+      {
+        "value": "under",
+        "displayName": "Under"
+      }
+    ]
+    },
+    "ratioLine": {
+    "style": [
+      {
+        "value": "dashed",
+        "displayName": "Dashed"
+      },
+      {
+        "value": "solid",
+        "displayName": "Solid"
+      },
+      {
+        "value": "dotted",
+        "displayName": "Dotted"
+      }
+    ]
+    },
+    "columnHeaders": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ]
+    },
+    "values": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ]
+    },
+    "total": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ]
+    },
+    "rowHeaders": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ]
+    },
+    "subTotals": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ],
+    "rowSubtotalsPosition": [
+      {
+        "value": "Top",
+        "displayName": "Top"
+      },
+      {
+        "value": "Bottom",
+        "displayName": "Bottom"
+      }
+    ]
+    },
+    "general": {
+    "orientation": [
+      {
+        "value": "vertical",
+        "displayName": "Vertical"
+      },
+      {
+        "value": "horizontal",
+        "displayName": "Horizontal"
+      }
+    ]
+    },
+    "data": {
+    "relativeRange": [
+      {
+        "value": "Last",
+        "displayName": "Last"
+      },
+      {
+        "value": "Next",
+        "displayName": "Next"
+      },
+      {
+        "value": "This",
+        "displayName": "This"
+      }
+    ],
+    "relativePeriod": [
+      {
+        "value": "None",
+        "displayName": "Select"
+      },
+      {
+        "value": "Days",
+        "displayName": "Days"
+      },
+      {
+        "value": "Weeks",
+        "displayName": "Weeks"
+      },
+      {
+        "value": "Calendar Weeks",
+        "displayName": "Weeks (Calendar)"
+      },
+      {
+        "value": "Months",
+        "displayName": "Months"
+      },
+      {
+        "value": "Calendar Months",
+        "displayName": "Months (Calendar)"
+      },
+      {
+        "value": "Years",
+        "displayName": "Years"
+      },
+      {
+        "value": "Calendar Years",
+        "displayName": "Years (Calendar)"
+      }
+    ],
+    "mode": [
+      {
+        "value": "Between",
+        "displayName": "Between"
+      },
+      {
+        "value": "Before",
+        "displayName": "Before"
+      },
+      {
+        "value": "After",
+        "displayName": "After"
+      },
+      {
+        "value": "Basic",
+        "displayName": "List"
+      },
+      {
+        "value": "Dropdown",
+        "displayName": "Dropdown"
+      },
+      {
+        "value": "Relative",
+        "displayName": "Relative"
+      },
+      {
+        "value": "Single",
+        "displayName": "Single Value"
+      }
+    ]
+    },
+    "header": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ]
+    },
+    "items": {
+    "outline": [
+      {
+        "value": "None",
+        "displayName": "None"
+      },
+      {
+        "value": "BottomOnly",
+        "displayName": "Bottom only"
+      },
+      {
+        "value": "TopOnly",
+        "displayName": "Top only"
+      },
+      {
+        "value": "LeftOnly",
+        "displayName": "Left only"
+      },
+      {
+        "value": "RightOnly",
+        "displayName": "Right only"
+      },
+      {
+        "value": "TopBottom",
+        "displayName": "Top + bottom"
+      },
+      {
+        "value": "LeftRight",
+        "displayName": "Left + right"
+      },
+      {
+        "value": "Frame",
+        "displayName": "Frame"
+      }
+    ]
+    },
+    "status": {
+    "direction": [
+      {
+        "value": "Positive",
+        "displayName": "High is good"
+      },
+      {
+        "value": "Negative",
+        "displayName": "Low is good"
+      }
+     ]
+   }
+}
