@@ -1,0 +1,472 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "PBI Rest API",
+    "description": "Power BI Rest API",
+    "version": "1.0"
+  },
+  "host": "api.powerbi.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "consumes": [],
+  "produces": [],
+  "paths": {
+    "/v1.0/myorg/groups": {},
+    "/DELETE https://api.powerbi.com/v1.0/myorg/groups/{groupId}/scorecards({scorecardId})/goals({goalId})/goalValues({timestamp})/notes({noteId})": {
+      "delete": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Goal Notes - Delete By ID",
+        "description": "Goal Notes - Delete By ID",
+        "operationId": "GoalNotes-DeleteByID",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "goalId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "timestamp",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "noteId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/GET https://api.powerbi.com/v1.0/myorg/groups/{groupId}/scorecards": {},
+    "/v1.0/myorg/groups/{groupId}/scorecards": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Scorecards - Get",
+        "description": "Scorecards - Get",
+        "operationId": "Scorecards-Get",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      },
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Scorecards - Post",
+        "description": "Scorecards - Post",
+        "operationId": "Scorecards-Post",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "description": "name"
+                },
+                "statuses": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "id"
+                      },
+                      "displayName": {
+                        "type": "string",
+                        "description": "displayName"
+                      },
+                      "color": {
+                        "type": "string",
+                        "description": "color"
+                      },
+                      "historical": {
+                        "type": "boolean",
+                        "description": "historical"
+                      }
+                    }
+                  },
+                  "description": "statuses"
+                },
+                "goalStatuses": {
+                  "type": "object",
+                  "properties": {
+                    "nextId": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "nextId"
+                    },
+                    "statuses": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "id": {
+                            "type": "integer",
+                            "format": "int32",
+                            "description": "id"
+                          },
+                          "displayName": {
+                            "type": "string",
+                            "description": "displayName"
+                          },
+                          "color": {
+                            "type": "string",
+                            "description": "color"
+                          },
+                          "historical": {
+                            "type": "boolean",
+                            "description": "historical"
+                          }
+                        }
+                      },
+                      "description": "statuses"
+                    }
+                  },
+                  "description": "goalStatuses"
+                },
+                "permissions": {
+                  "type": "string",
+                  "description": "permissions"
+                },
+                "columnSettings": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "columnId": {
+                        "type": "integer",
+                        "format": "int32",
+                        "description": "columnId"
+                      },
+                      "show": {
+                        "type": "boolean",
+                        "description": "show"
+                      }
+                    }
+                  },
+                  "description": "columnSettings"
+                },
+                "notificationsSetting": {
+                  "type": "integer",
+                  "format": "int32",
+                  "description": "notificationsSetting"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "/v1.0/myorg/groups/{groupId}/scorecards({scorecardId})": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Scorecards - Get By ID",
+        "description": "Scorecards - Get By ID",
+        "operationId": "Scorecards-GetByID",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      },
+      "patch": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Scorecards - Patch By ID",
+        "description": "Scorecards - Patch By ID",
+        "operationId": "Scorecards-PatchByID",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1.0/myorg/groups/{groupId}/scorecards/GetScorecardByReportId(reportId={reportId})": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Scorecards - Get Scorecard By Report Id",
+        "description": "Scorecards - Get Scorecard By Report Id",
+        "operationId": "Scorecards-GetScorecardByReportId",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "reportId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1.0/myorg/groups/{groupId}/scorecards({scorecardId})/MoveGoals()": {
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Scorecards - Move Goals",
+        "description": "Scorecards - Move Goals",
+        "operationId": "Scorecards-MoveGoals",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      }
+    },
+    "/v1.0/myorg/groups/{groupId}/scorecards({scorecardId})/goals({goalId})/goalValues": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Goal Values - Get",
+        "description": "Goal Values - Get",
+        "operationId": "GoalValues-Get",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "goalId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ]
+      },
+      "post": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Goal Values - Post",
+        "description": "Goal Values - Post",
+        "operationId": "GoalValues-Post",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "goalId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "required": false,
+            "schema": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "object",
+                  "properties": {
+                    "timestamp": {
+                      "type": "string",
+                      "description": "timestamp"
+                    },
+                    "goalId": {
+                      "type": "string",
+                      "description": "goalId"
+                    },
+                    "scorecardId": {
+                      "type": "string",
+                      "description": "scorecardId"
+                    },
+                    "target": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "target"
+                    },
+                    "targetDisplayString": {
+                      "type": "string",
+                      "description": "targetDisplayString"
+                    }
+                  },
+                  "description": "value"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "/v1.0/myorg/groups/{groupId}/scorecards({scorecardId})/goals({goalId})": {
+      "get": {
+        "responses": {
+          "default": {
+            "description": "default",
+            "schema": {}
+          }
+        },
+        "summary": "Goals - Get By ID - expanded",
+        "description": "Goals - Get By ID - expanded",
+        "operationId": "Goals-GetByID-Expanded",
+        "parameters": [
+          {
+            "name": "groupId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "scorecardId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "goalId",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "expand",
+            "in": "query",
+            "required": false,
+            "type": "string"
+          }
+        ]
+      }
+    }
+  },
+  "definitions": {},
+  "parameters": {},
+  "responses": {},
+  "securityDefinitions": {
+    "oauth2_auth": {
+      "type": "oauth2",
+      "flow": "accessCode",
+      "authorizationUrl": "https://login.windows.net/common/oauth2/authorize",
+      "tokenUrl": "https://login.windows.net/common/oauth2/authorize",
+      "scopes": {}
+    }
+  },
+  "security": [
+    {
+      "oauth2_auth": []
+    }
+  ],
+  "tags": []
+}
